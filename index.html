@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemal Naik | Aspiring Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            padding: 1rem;
+            color: #fff;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 1rem;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+
+        nav a::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background-color: #4ca1af;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover::after {
+            left: 0;
+            width: 100%;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 1.5rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        ul li::before {
+            content: "\f058";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            margin-right: 0.5rem;
+            color: #4ca1af;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hemal Naik</h1>
+        <p>Aspiring Software Developer</p>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Experience</a>
+        <a href="#">Education</a>
+        <a href="#">Expertise</a>
+        <a href="#">Volunteering</a>
+    </nav>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>An aspiring software developer with an academic background in statistics, engineering, and mathematics. I
+                love finding patterns and connecting dots, whether applications from different industries, people from
+                different backgrounds and teams, or ideas from various sectors.</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Web Developer, The Sparks Foundation (Jan 23)</h3>
+                    <p>During my one-month internship at Sparks Foundation, I developed a banking website and app,
+                        honing my development skills . Overcoming server issues and learning Android Studio improved my
+                        problem-solving abilities.</p>
+                </li>
+                <li>
+                    <h3>Web Development Intern, Air India Engineering services limited (Dec 23 - Jan 24)</h3>
+                    <p>In the period of 3 months, my task was to design websites according to their specific
+                        requirements in HTML, CSS, and JS</p>
+                </li>
+                <li>
+                    <h3>Engineering Intern, PHN Technology (Apr 23 - Jun 23)</h3>
+                    <p>Worked closely on a software called Ramco with the IT department and applied my engineering
+                        knowledge creating various network component diagrams.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>B.E. in Computer Science, Rizvi College Of Engineering (Dec 21 - Present)</h3>
+                </li>
+                <li>
+                    <h3>Higher Secondary Certificate, S.K Somaiya University (Aug 19 - Jul 21)</h3>
+                </li>
+                <li>
+                    <h3>Secondary School Certificate, Mary Immaculate Girls High School (Jun 09 - Jun 19)</h3>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Expertise</h2>
+            <ul>
+                <li>Leadership</li>
+                <li>Emotional Intelligence</li>
+                <li>Web development</li>
+                <li>C (programming language)</li>
+                <li>Java</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Volunteering</h2>
+            <ul>
+                <li>
+                    <h3>Content Writer, Aashman Foundation (Jan 23 - Apr 23)</h3>
+                </li>
+                <li>
+                    <h3>Student Volunteer, Greenbhoomi (Jan 23)</h3>
+                </li>
+                <li>
+                    <h3>Intern, Pledge a Smile Foundation (Feb 23)</h3>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hemal Naik | <a href="mailto:naikhemal03@gmail.com">naikhemal03@gmail.com</a> | <a
+                href="tel:+919996976438">+91 99969764738</a> | <a href="https://www.linkedin.com/in/hemalnaik03"
+                target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+
+</html>
